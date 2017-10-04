@@ -1,5 +1,5 @@
 # Markers
-A Chalk-inspired library for beatiful terminal colors in ReasonML.
+A Chalk-inspired library for beautiful terminal colors in ReasonML.
 
 ## Examples
 
