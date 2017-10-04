@@ -1,8 +1,6 @@
 open Colors;
 
-let apply_style style str => "\027[" ^ style ^ str;
-
-let make str => str ^ "\027[0m";
+let apply_style style str => "\027[" ^ style ^ str ^ "\027[0m";
 
 /* Forground */
 let cyan = apply_style forground.cyan;
